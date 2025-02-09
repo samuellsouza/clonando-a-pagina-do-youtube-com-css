@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    height: 20px;
+    margin-left: 16px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.search-container {
+    flex: 1;
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px 0 0 2px;
+}
+
+.search {
+    flex: 1;
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex
+}
+
+.main-content {
+    display: flex;
+    margin-top: 24px;
+    padding: 0 24px;
+}
+
+.video-container {
+    flex: 1;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.video-player {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #000;
+    margin-bottom: 24px;
+}
+
+.video-info {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.video-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 600px;
+    margin-bottom: 12px;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.channel-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.channel-details {
+    flex: 1;
+}
+
+.channel-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.subscriber-count {
+    color: #606060;
+    font-size: 14px;
+}
+
+.video-stats {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #606060;
+    font-size: 14px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe-button {
+    background: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.video-description {
+    margin-top: 16px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.recommended-videos {
+    width: 400px;
+    margin-left: 24px;
+}
+
+.video-card {
+    display: flex;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 168px;
+    height: 94px;
+    background: #f9f9f9;
+    margin-right: 8px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-card-info {
+    flex: 1;
+}
+
+.video-card-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.channel-name-small {
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 2px;
+}
+
+.video-metadata {
+    font-size: 12px;
+    color: #606060;
+}
+
+.search {
+    display: flex;
+
+}
